@@ -1,7 +1,7 @@
 :root {
     --green: #00FF00;
-    --white: #ffffff;
-    --black: #000000;
+    --white: #cec3c3;
+    --black: #181111;
   }
 
 * {
@@ -39,7 +39,6 @@ li {
   }
 
   .btn {
-    position: absolute;
     top: 20px;
     left: 325px;
     height: 50px;
@@ -51,3 +50,23 @@ li {
   }
 
   .btn:focus { outline-style: none; }
+
+  header {
+    text-align: center;
+}
+
+section {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.731);
+}
+
+footer {
+  color: rgb(0, 0, 0);
+  font: 12pt italic;
+  text-align: center;
+  font-weight: italic;
+}
